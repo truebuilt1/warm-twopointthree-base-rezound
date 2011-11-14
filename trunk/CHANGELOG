@@ -1,0 +1,11 @@
+========  Warm TwoPointThree Changelog ========
+# Base:  RUU_Vigor_VERIZON_WWE_1.02.605.6
+# DeOdexed
+# Added root permissions (superuser/su)
+# Added Busybox 1.18.4
+# Added init.d daemon (runparts)
+# Added GPU UI Acceleration (instead of CPU)
+# Added Juwe11's Ram Optimization Script
+# Added Green OverScroll
+# Changed WiFi Scan Interval To 180 seconds to further conserve battery
+# Added EXT4 File I/O Performance Tweaks

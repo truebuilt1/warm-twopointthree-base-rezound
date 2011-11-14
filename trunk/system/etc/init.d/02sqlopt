@@ -1,0 +1,28 @@
+#!/system/bin/sh
+# Warm ROMS
+
+#### RECLAIM EMPTY SPACE IN DB'S ####
+for i in `find /data -iname "*.db"`;	do
+	/system/xbin/sqlite3 $i 'VACUUM;'; 
+done;
+
+#### ENABLE WRITE AHEAD JOURNALING MODE ####
+# http://www.sqlite.org/pragma.html#pragma_journal_mode
+if [ -f /data/system/packages.xml ];
+	then
+	for i in `busybox find /data -iname "*.db"`;	do
+		/system/xbin/sqlite3 $i 'PRAGMA journal_mode = WAL;'; 
+	done;
+else
+	echo "May Need To Reboot after first boot for WAL to take effect";
+fi;
+
+#### DISABLE GOOGLE CHECKIN SERVICES ####
+echo "Disabling GSF"
+if [ -e /data/data/com.google.android.gsf/databases/gservices.db ]; then
+	sqlite3 /data/data/com.google.android.gsf/databases/gservices.db "update main set value = 'false' where name = 'perform_market_checkin' and value = 'true'";
+	sqlite3 /data/data/com.google.android.gsf/databases/gservices.db "update main set value = 'false' where name = 'checkin_dropbox_upload:system_update' and value = 'true'"
+	sqlite3 /data/data/com.google.android.gsf/databases/gservices.db "update main set value = 0 where name = 'market_force_checkin' and value = -1"
+	sqlite3 /data/data/com.google.android.gsf/databases/gservices.db "update main set value = 0 where name = 'checkin_interval'"
+	sqlite3 /data/data/com.google.android.gsf/databases/gservices.db "update main set value = 0 where name = 'secure:bandwidth_checkin_stat_interval'"
+fi;

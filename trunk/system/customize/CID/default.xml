@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<customization_form>
+  <category name="system">
+    <module name="locale">
+      <function>
+        <set name="single">
+          <item name="total_list">en_US;es_US;cs_US;da_US;de_US;el_US;fr_US;hr_US;it_US;hu_US;nl_US;nb_US;pl_US;pt_US;ru_US;ro_US;sk_US;fi_US;sv_US;vi_US;tr_US;th_US;ko_US;ja_US;zh_CN;zh_TW;</item>
+          <item type="boolean" name="en_US">yes</item>
+          <item type="boolean" name="es_US">yes</item>
+          <item type="boolean" name="cs_US">yes</item>
+          <item type="boolean" name="da_US">yes</item>
+          <item type="boolean" name="de_US">yes</item>
+          <item type="boolean" name="el_US">yes</item>
+          <item type="boolean" name="fr_US">yes</item>
+          <item type="boolean" name="hr_US">yes</item>
+          <item type="boolean" name="it_US">yes</item>
+          <item type="boolean" name="hu_US">yes</item>
+          <item type="boolean" name="nl_US">yes</item>
+          <item type="boolean" name="nb_US">yes</item>
+          <item type="boolean" name="pl_US">yes</item>
+          <item type="boolean" name="pt_US">yes</item>
+          <item type="boolean" name="ru_US">yes</item>
+          <item type="boolean" name="ro_US">yes</item>
+          <item type="boolean" name="sk_US">yes</item>
+          <item type="boolean" name="fi_US">yes</item>
+          <item type="boolean" name="sv_US">yes</item>
+          <item type="boolean" name="vi_US">yes</item>
+          <item type="boolean" name="tr_US">yes</item>
+          <item type="boolean" name="th_US">yes</item>
+          <item type="boolean" name="ko_US">yes</item>
+          <item type="boolean" name="ja_US">yes</item>
+          <item type="boolean" name="zh_CN">yes</item>
+          <item type="boolean" name="zh_TW">yes</item>
+        </set>
+      </function>
+    </module>
+    <module name="deviceData">
+      <function>
+        <set name="single">
+          <item name="device_name">ADR6425LVW</item>
+        </set>
+      </function>
+    </module>
+    <module name="deviceData1">
+      <function>
+        <set name="single">
+          <item name="sw_number">NA</item>
+        </set>
+      </function>
+    </module>
+    <module name="InputMethod">
+      <function name="IME_language_set">
+        <set name="single">
+          <item type="boolean" name="English">yes</item>
+          <item type="boolean" name="German">yes</item>
+          <item type="boolean" name="France">yes</item>
+          <item type="boolean" name="Italian">yes</item>
+          <item type="boolean" name="Spanish">yes</item>
+          <item type="boolean" name="Russian">yes</item>
+          <item type="boolean" name="Czech">yes</item>
+          <item type="boolean" name="Danish">yes</item>
+          <item type="boolean" name="Swedish">yes</item>
+          <item type="boolean" name="Norwegian">yes</item>
+          <item type="boolean" name="Dutch">yes</item>
+          <item type="boolean" name="Polish">yes</item>
+          <item type="boolean" name="Portugal">yes</item>
+          <item type="boolean" name="Greek">yes</item>
+          <item type="boolean" name="Turkish">yes</item>
+          <item type="boolean" name="Finnish">yes</item>
+          <item type="boolean" name="Hungarian">yes</item>
+          <item type="boolean" name="Romanian">yes</item>
+          <item type="boolean" name="Slovak">yes</item>
+          <item type="boolean" name="Croatian">yes</item>
+          <item type="boolean" name="Slovenian">yes</item>
+          <item type="boolean" name="Serbian">yes</item>
+          <item type="boolean" name="Bulgarian">yes</item>
+          <item type="boolean" name="Estonian">yes</item>
+          <item type="boolean" name="Latvian">yes</item>
+          <item type="boolean" name="Lithuanian">yes</item>
+        </set>
+      </function>
+      <function name="IME_sip_set">
+        <set name="single">
+          <item name="total_list">Handwriting;ZuhYin;CangJie;PinYin;Stroke;</item>
+          <item type="boolean" name="ZuhYin">yes</item>
+          <item type="boolean" name="CangJie">yes</item>
+          <item type="boolean" name="PinYin">yes</item>
+          <item type="boolean" name="Stroke">yes</item>
+        </set>
+      </function>
+    </module>
+    <module name="Settings">
+      <function name="screen_timeout">
+        <set name="plenty">
+          <item name="value1">15000</item>
+          <item name="value2">30000</item>
+          <item name="value3">45000</item>
+          <item name="value4">60000</item>
+          <item name="value5">120000</item>
+          <item name="value6">600000</item>
+          <item name="value7">-1</item>
+        </set>
+      </function>
+      <function name="power_saver_screen_timeout">
+        <set name="plenty">
+          <item name="value1">15000</item>
+          <item name="value2">30000</item>
+          <item name="value3">45000</item>
+          <item name="value4">60000</item>
+          <item name="value5">120000</item>
+        </set>
+      </function>
+      <function name="customized_value">
+        <set name="single">
+          <item name="has_netsharing">false</item>
+          <item name="has_modemlink">true</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="application">
+    <module name="OOBE">
+      <function name="Block_No_SIM">
+        <set name="single">
+          <item name="Default" type="boolean">no</item>
+        </set>
+      </function>
+      <function name="Step_Config">
+        <set name="single">
+          <item name="Set_Language" type="boolean">yes</item>
+          <item name="SIP_Tutorial" type="boolean">no</item>
+          <item name="Internet_Connection" type="boolean">no</item>
+          <item name="Wi-Fi" type="boolean">no</item>
+          <item name="Location_Consent" type="boolean">no</item>
+          <item name="VZW_Location_Consent" type="boolean">yes</item>
+        </set>
+      </function>
+      <function name="Mobile_Data_Config">
+        <set name="single">
+          <item name="Default" type="boolean">no</item>
+        </set>
+      </function>
+    </module>
+    <module name="Crash_Report">
+      <function name="setting">
+        <set name="single">
+          <item name="turn_off_report" type="boolean">yes</item>
+          <item name="turn_off_tell_htc" type="boolean">yes</item>
+          <item name="hide_usage_report" type="boolean">yes</item>
+        </set>
+      </function>
+    </module>
+    <module name="FOTA">
+      <function name="settings">
+        <set name="single">
+          <item name="Enable_FOTA_UI" type="boolean">no</item>
+          <item name="Enable_Manual_Check" type="boolean">no</item>
+        </set>
+      </function>
+    </module>
+    <module name="Wifihotspot">
+      <function name="usermanagement">
+        <set name="plenty" max="15">
+          <item name="connection_array">10</item>
+        </set>
+      </function>
+    </module>
+    <module name="Lockscreen">
+      <function name="shortcut">
+        <set name="plenty">
+          <item name="package">com.android.htccontacts</item>
+          <item name="class">com.android.htccontacts.DialerTabActivity</item>
+          <item name="order">1</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.android.camera</item>
+          <item name="class">com.android.camera.CameraEntry</item>
+          <item name="order">2</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.android.mms</item>
+          <item name="class">com.android.mms.ui.MessageTabActivity</item>
+          <item name="order">3</item>
+        </set>
+        <set name="plenty">
+          <item name="package">com.htc.android.mail</item>
+          <item name="class">com.htc.android.mail.MailListTab</item>
+          <item name="order">4</item>
+        </set>
+      </function>
+      <function name="shortcut_visibility">
+        <set name="single" max="1">
+          <item name="visibility">1</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <BootConfiguration>
+    <BootAnimation animation="/system/customize/resource/Vigor_VZW_bootanimation.zip" />
+  </BootConfiguration>
+  <ShutdownConfiguration>
+    <ShutdownAnimation image_png="/system/customize/resource/hTC_downanimation.zip" image="" fps="20" />
+  </ShutdownConfiguration>
+  <category name="SettingsProvider">
+    <module name="res">
+      <function name="values">
+        <set name="single">
+          <item name="def_screen_off_timeout">45000</item>
+          <item name="def_location_gps_providers_allowed">false</item>
+          <item name="def_location_network_providers_allowed">false</item>
+          <item name="def_inactivity_time">900</item>
+        </set>
+      </function>
+    </module>
+  </category>
+  <category name="Settings">
+    <module name="properties">
+      <function>
+        <set name="single">
+          <item name="phone_finder_visibility">false</item>
+        </set>
+      </function>
+    </module>
+  </category>
+</customization_form>

@@ -1,0 +1,5 @@
+#!/system/bin/sh
+# EXT4 Optimization - http://forum.xda-developers.com/showthread.php?t=1201420
+mount -o remount,noatime,delalloc,noauto_da_alloc,barrier=1 /system /system
+mount -o remount,noatime,delalloc,noauto_da_alloc,barrier=0 /cache /cache
+mount -o remount,noatime,delalloc,noauto_da_alloc,barrier=0 /data /data

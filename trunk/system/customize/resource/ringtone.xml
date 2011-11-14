@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AssetSoundList catFlag="1" listsize="7" dversion="0" sort="0" lang="en" timestamp="0">
+  <AssetSound reldate="0" aui="0" timestamp="0" downloadCount="0" ratingCount="0" rating="0" url="sound://system/customize/resource/VZW_Airwaves_1.mp3" preurl="" cat="108" size="144 KB" GUID="537b107ee89e470381c915052b0948fa" id="" type="4" refType="S_Ringtone">
+    <Info author="HTC Innovation" corporation="HTC" desc="Sound Set Ringtone" name="VZW Airwaves" />
+  </AssetSound>
+</AssetSoundList>

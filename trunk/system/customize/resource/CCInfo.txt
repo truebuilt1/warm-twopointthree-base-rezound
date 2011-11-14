@@ -1,0 +1,5 @@
+﻿Project: VIGOR
+SKU: VZW WWE ROM
+ROM Build ID: 249206
+Build ID: 249207; SKU: VZW WWE ROM default; CID: default; MNS: default
+Datetime: 2011/10/05 20:08:46
