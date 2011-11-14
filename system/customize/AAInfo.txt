@@ -1,0 +1,6 @@
+TaskID : 221384
+Project : Vigor
+SKU : VERIZON WWE[605]
+ROM Ver : 1.02.605.6
+Customization Id : 249206
+RCMS Id : 224
