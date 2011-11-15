@@ -1,7 +1,7 @@
 assert(getprop("ro.product.device") == "vigor" || getprop("ro.build.product") == "vigor" || getprop("ro.product.board") == "vigor");
 ui_print("");
 ui_print("");
-ui_print("       ?  ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? Beta");
+ui_print("       W A R M T W O P O I N T T H R E E Beta");
 ui_print("                    S E N S E 3.5");
 ui_print("                A N D R O I D 2.3.4");
 ui_print("                   H T C B E A T S");
